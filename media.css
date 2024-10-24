@@ -1,0 +1,86 @@
+@media (max-width: 768px){
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links li {
+    padding: 10px 0;
+  }
+
+  .hamburguer {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  /*header*/
+
+  .sobre{
+     display: flex; 
+     flex-direction: column;
+     text-align: center;
+  }
+
+ .texto-sobre li{
+    font-size: 40px;
+    margin: 15px;
+    
+ }
+
+  .sobre img{
+    width: 50%;
+    height: 50%;
+  }
+
+  .tudo {
+    display: flex; 
+    flex-direction: column;
+  }
+
+  .projetos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .titulo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .linguagens {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0%;
+    margin-bottom: 30px;
+  }
+
+.prog-conteudo img{
+   margin-right: 10px;
+}
+
+}
+
+
+
+
+
